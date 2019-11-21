@@ -1,0 +1,5 @@
+tqdm==4.36.1
+scipy==1.2.2
+numpy==1.16.5
+gensim==3.8.1
+scikit_learn==0.21.3
