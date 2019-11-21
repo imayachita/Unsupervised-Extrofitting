@@ -7,7 +7,11 @@ Code is written based on https://github.com/HwiyeolJo/Extrofitting with some mod
 2. Use Gensim most_similar method to find the top-N most associated words
 
 How to run the code:
-python3 unsupervised_extrofitting.py -m [original_model_file] -o [output_file] -e [number_of_epochs]
+```
+python3 unsupervised_extrofitting.py -m [original_model_file] -o [output_file] -e [number_of_epochs] 
+```
 
 Example:
-python3 unsupervised_extrofitting.py -m model_fasttext.txt -o model_fasttext_unsupextrofit.txt -e 5
+``` 
+python3 unsupervised_extrofitting.py -m model_fasttext.txt -o model_fasttext_unsupextrofit.txt -e 5 
+```
