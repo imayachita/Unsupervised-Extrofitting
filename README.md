@@ -6,12 +6,20 @@ Code is written based on https://github.com/HwiyeolJo/Extrofitting with some mod
 1. Function to reduce dimensionality with PCA instead of LDA
 2. Use Gensim most_similar method to find the top-N most associated words
 
+# Setup
+The code is written in Python 3.6
+To install the required packages:
+```
+pip install -r requirements.txt
+```
+
+
 How to run the code:
 ```
-python3 unsupervised_extrofitting.py -m [original_model_file] -o [output_file] -e [number_of_epochs] 
+python unsupervised_extrofitting.py -m [original_model_file] -o [output_file] -e [number_of_epochs] 
 ```
 
 Example:
 ``` 
-python3 unsupervised_extrofitting.py -m model_fasttext.txt -o model_fasttext_unsupextrofit.txt -e 5 
+python unsupervised_extrofitting.py -m model_fasttext.txt -o model_fasttext_unsupextrofit.txt -e 5 
 ```
